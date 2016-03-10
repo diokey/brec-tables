@@ -5,14 +5,15 @@ var gulp = require('gulp'),
 var vendorPath = 'js/vendor/';
 
 var paths = [
-  vendorPath + 'datatables/media/js/jquery.dataTables.js',
-  vendorPath + 'datatables-responsive/js/dataTables.responsive.js',
-  vendorPath + 'datatables-tabletools/js/dataTables.tableTools.js',
-  vendorPath + 'datatables-colreorder/js/dataTables.colReorder.js',
-  vendorPath + 'datatables-colvis/js/dataTables.colVis.js',
+  vendorPath + 'datatables.net/js/jquery.dataTables.js',
+  vendorPath + 'datatables.net-responsive/js/dataTables.responsive.js',
+  vendorPath + 'datatables.net-select/js/dataTables.select.js',
+  vendorPath + 'datatables.net-buttons/js/dataTables.buttons.js',
+  vendorPath + 'datatables.net-colreorder/js/dataTables.colReorder.js',
+  vendorPath + 'datatables.net-buttons/js/dataTables.colVis.js',
   vendorPath + 'jquery-datatables-column-filter/jquery.dataTables.columnFilter.js',
-  vendorPath + 'datatables-fixedcolumns/js/dataTables.fixedColumns.js',
-  vendorPath + 'datatables-fixedheader/js/dataTables.fixedHeader.js'
+  vendorPath + 'datatables.net-fixedcolumns/js/dataTables.fixedColumns.js',
+  vendorPath + 'datatables.net-fixedheader/js/dataTables.fixedHeader.js'
 ];
 
 gulp.task('bower', function(cb) {
